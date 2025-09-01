@@ -37,28 +37,33 @@ This project demonstrates how to integrate Azure-hosted LLMs into a simple yet e
 ## ⚙️ Setup & Installation
 
 ### 1. Clone this repository
-```bash
+```
 git clone https://github.com/yourusername/azure-gpt4o-chatbot.git
 cd azure-gpt4o-chatbot
 ```
 
 ### 2. Create a virtual environment
-- python -m venv venv
-- source venv/bin/activate   # Mac/Linux
-- venv\Scripts\activate      # Windows
-
+```
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+```
 ### 3. Install dependencies
-- pip install -r requirements.txt
-
+```
+pip install -r requirements.txt
+```
 ### 4. Configure environment variables
 - Create a .env file in the root directory with your Azure OpenAI credentials:
+```
 AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com/<br>
 AZURE_OPENAI_KEY=your_azure_api_key_here<br>
 OPENAI_API_VERSION=2024-05-01-preview<br>
+```
 
 ### 5. Run the Flask app
-- python main.py
-
+```
+python main.py
+```
 ### 6. Open in browser
 Visit: http://localhost:5000
 
@@ -76,19 +81,19 @@ Visit: http://localhost:5000
 - Loads API keys with dotenv.
 - Initializes AzureChatOpenAI model with GPT-4o deployment.
 - Serves:<br>
--- / → Renders index.html.<br>
--- /chat → Handles POST requests and returns model responses.<br>
+- - / → Renders index.html.<br>
+- - /chat → Handles POST requests and returns model responses.<br>
 
 2. Frontend (index.html)
 - UI Design:<br>
--- Chat container with styled messages.<br>
--- User and bot avatars.<br>
--- Input box + Send button.<br>
+- - Chat container with styled messages.<br>
+- - User and bot avatars.<br>
+- - Input box + Send button.<br>
 
 - JavaScript Logic:<br>
--- Sends user messages to Flask backend (/chat).<br>
--- Displays bot responses dynamically.<br>
--- Shows "Typing..." placeholder while waiting.<br>
+- - Sends user messages to Flask backend (/chat).<br>
+- - Displays bot responses dynamically.<br>
+- - Shows "Typing..." placeholder while waiting.<br>
 
 ## 📸 Demo Screenshot
 
