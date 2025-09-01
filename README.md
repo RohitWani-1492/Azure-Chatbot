@@ -92,5 +92,6 @@ Visit: http://localhost:5000
 
 ## 📸 Demo Screenshot
 
-![PHOTO-2025-08-07-10-44-08](https://github.com/user-attachments/assets/bb0d57ea-c2d8-40dc-abe1-d9e7fd561b16)
+![PHOTO-2025-08-07-10-44-08](https://github.com/user-attachments/assets/a26311cf-c0ad-4e19-80ad-c9ec99bacc4d)
+
 
